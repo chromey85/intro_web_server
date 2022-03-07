@@ -1,9 +1,9 @@
 const express = require("express");
-const app = express()
+const app = express();
 const port = 5000;
 
 app.use("/static", express.static("public"));
 
 app.listen(port, () => {
-    console.log(`listening in port ${port}`)
-})
+  console.log(`listening in port ${port}`);
+});
